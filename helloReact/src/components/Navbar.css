@@ -1,0 +1,10 @@
+.container-navbar{
+    height: 60px;
+    background-color: rgb(221, 233, 167);
+    border: 1px solid rgb(240, 215, 134);
+    text-align: center;
+    
+}
+.container-navbar:hover{
+    background-color: rgb(243, 232, 135);
+}
