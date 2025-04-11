@@ -1,34 +1,48 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Desenvolvedor from './components/Desenvolvedor'
+import Frontend from './components/Frontend'
+import Backend from './components/Backend'
+import Fullstack from './components/Fullstack'
+import Deploy from './components/Deploy'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const[oracao, setOracao] = useState('')
 
+  function mostrardesenvolvedor(){
+    setOracao(<Desenvolvedor />)
+  }
+
+  function mostrarfrontend(){
+    setOracao(<Frontend />)
+  }
+
+  function mostrarbackend(){
+    setOracao(<Backend />)
+  }
+
+  function mostrarfullstack(){
+    setOracao(<Fullstack />)
+  }
+
+  function mostardeploy(){
+    setOracao(<Deploy />)
+  }
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className='container'>
+        <h1 className='titulo'>Orações Devs</h1>
+
+        <div className='container-oracao'>
+          <button className='botao-oracao' onClick={mostrardesenvolvedor}>Do desenvolvedor Web</button>
+          <button className='botao-oracao' onClick={mostrarfrontend}>Do Frontend</button>
+          <button className='botao-oracao' onClick={mostrarbackend}>Do Backend</button>
+          <button className='botao-oracao' onClick={mostrarfullstack}>Do Fullstack</button>
+          <button className='botao-oracao' onClick={mostardeploy}>Do deploy</button>
+        </div>
+
+        {oracao}
+
+    </div>
   )
 }
 
