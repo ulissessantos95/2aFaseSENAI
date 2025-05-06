@@ -7,3 +7,8 @@
     justify-content: space-between; 
     align-items: center;
 }
+
+.titulo{
+    width: 100%;
+    text-align: center;
+}
