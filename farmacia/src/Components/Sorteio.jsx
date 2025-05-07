@@ -22,7 +22,7 @@ function Sorteio() {
 
   return (
     <div className='container-sorteio'>
-        <h2>!! SORTEIO !!</h2>
+        <h2>!! SORTEIOOOOOOO !!</h2>
         <p>Inscreva-se aqui para o sorteio de uma linda camiseta</p>
 
         <label htmlFor="">Nome</label>
