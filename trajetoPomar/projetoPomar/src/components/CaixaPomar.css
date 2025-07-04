@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    background-color: dimgrey;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+#listaFr-esquerdo {
+    height: 100%;
+    width: 50%;
+    background-color: dimgrey;
+    margin: 0 5% 0 0;
+}
+
+
+#qntFrutas {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+#notaFi-direita{ 
+    height: 100%;
+    width: 50%;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid;
+}
+
+#qntFrutas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}   
+
+input {
+    margin-bottom: 5px;
+}

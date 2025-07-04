@@ -1,0 +1,43 @@
+.container-saldo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.botoes-saldo {
+    margin-top: 5%;
+    display: flex;
+    gap: 50px;
+}
+
+.botao-credito {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 190, 21);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.botao-debito {
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 21, 21);
+}
+
+.input-valor {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+.container-movimentacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 15px;
+}
+

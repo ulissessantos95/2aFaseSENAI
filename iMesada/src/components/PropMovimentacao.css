@@ -1,0 +1,34 @@
+.Crédito {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    border-left: 10px solid rgb(0, 206, 17);
+    border-radius: 10px;
+    height: 55px;
+    background-color: rgb(241, 241, 241);
+    min-width: 400px;
+    padding-left: 2%;
+}
+
+.Débito {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    border-left: 10px solid rgb(196, 8, 8);
+    border-radius: 10px;
+    height: 55px;
+    background-color: rgb(241, 241, 241);
+    min-width: 400px;
+    padding-left: 2%;
+}
+
+
+.nome-mov{
+    font-weight: bolder;
+}
